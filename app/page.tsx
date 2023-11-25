@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-10 lg:p-24">
       <div className="mb-28 relative w-full">
         <div className="relative w-full flex">
           <div className="relative -top-8 -right-32">
@@ -24,6 +24,24 @@ export default function Home() {
               alt="homepage_2"
               width={550}
               height={550}
+            />
+          </div>
+        </div>
+        <div className="relative">
+          <div className="absolute -top-64 -left-24">
+            <Image
+              src="/snowflake.png"
+              alt="snowflake"
+              width={250}
+              height={250}
+            />
+          </div>
+          <div className="absolute -right-64 -top-40">
+            <Image
+              src="/snowbird.png"
+              alt="snowflake"
+              width={800}
+              height={500}
             />
           </div>
         </div>

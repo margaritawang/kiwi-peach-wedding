@@ -48,8 +48,8 @@ export default function Home() {
       <div className="flex flex-col items-center py-8">
         <Subheading>We&apos;re getting married!</Subheading>
         <p className="mt-8">
-          We can't wait to share our special day with you. Celebrate with us
-          this summer.
+          We can&apos;t wait to share our special day with you. Celebrate with
+          us this summer.
         </p>
       </div>
     </main>

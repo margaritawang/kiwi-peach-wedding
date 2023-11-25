@@ -4,7 +4,7 @@ import { Button } from "@/components/Button";
 export default function Rsvp() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="divide-y bg-white p-12 rounded-xl shadow-lg">
+      <div className="divide-y divide-current bg-sky-100 p-12 rounded-xl shadow-lg">
         <div className="flex flex-col justify-center items-center mb-10">
           <Subheading>Margarita & Mats</Subheading>
           <p className="mt-12 mb-2">Solstrand Hotel & Bad</p>

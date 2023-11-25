@@ -32,11 +32,11 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center py-8">
         <Subheading>AUGUST 19-21, 2024</Subheading>
-        <p>Bergen, Norway</p>
+        <p className="mt-8">Bergen, Norway</p>
       </div>
       <div className="flex flex-col items-center py-8">
-        <Subheading>We're getting married!</Subheading>
-        <p>We met on Hinge</p>
+        <Subheading>We&apos;re getting married!</Subheading>
+        <p className="mt-8">We met on Hinge</p>
       </div>
     </main>
   );

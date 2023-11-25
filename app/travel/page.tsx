@@ -11,7 +11,10 @@ export default function Travel() {
       <Image src={travel.hotelImg} alt="hotel" width={800} height={500} />
       <p className="max-w-3xl text-center my-16">{travel.description}</p>
       {travel.addresses.map((ad) => (
-        <div className="flex flex-row justify-center my-16 items-center">
+        <div
+          className="flex flex-row justify-center my-16 items-center"
+          key={ad.category}
+        >
           <div className="flex flex-1 flex-col items-center text-center border-r border-current">
             <p className="mb-4">{ad.category}</p>
             <Subheading>{ad.name}</Subheading>

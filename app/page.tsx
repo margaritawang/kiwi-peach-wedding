@@ -1,6 +1,9 @@
 import Image from "next/image";
-import { Heading } from "../components/Heading";
-import { Subheading } from "../components/Subheading";
+import { Heading } from "@/components/Heading";
+import { Subheading } from "@/components/Subheading";
+import { CountdownTimer } from "@/components/CountdownTimer";
+import { Button } from "@/components/Button";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -32,7 +35,15 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center py-8">
         <Subheading>AUGUST 19-21, 2024</Subheading>
-        <p className="mt-8">Bergen, Norway</p>
+        <p className="my-8">Bergen, Norway</p>
+        <CountdownTimer targetDate="2024-08-19T19:00:00" />
+        <div className="mt-16">
+          <Button>
+            <Link href="/rsvp" className="text-white">
+              RSVP
+            </Link>
+          </Button>
+        </div>
       </div>
       <div className="flex flex-col items-center py-8">
         <Subheading>We&apos;re getting married!</Subheading>

@@ -18,6 +18,9 @@ export const Navbar = () => {
       <div className="mx-5">
         <a>FAQs</a>
       </div>
+      <div className="mx-5">
+        <Link href="/rsvp">RSVP</Link>
+      </div>
     </div>
   );
 };

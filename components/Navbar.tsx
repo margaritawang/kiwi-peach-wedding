@@ -13,10 +13,10 @@ export const Navbar = () => {
         <Link href="/travel">Travel</Link>
       </div>
       <div className="mx-5">
-        <a>Wedding Party</a>
+        <Link href="/">Wedding Party</Link>
       </div>
       <div className="mx-5">
-        <a>FAQs</a>
+        <Link href="/">FAQs</Link>
       </div>
       <div className="mx-5">
         <Link href="/rsvp">RSVP</Link>

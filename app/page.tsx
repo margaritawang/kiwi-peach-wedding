@@ -29,9 +29,9 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col items-center py-20">
-        <Heading>Mats Lunde</Heading>
-        <p className="my-8">&</p>
         <Heading>Margarita Amy Wang</Heading>
+        <p className="my-8">&</p>
+        <Heading>Mats Lunde</Heading>
       </div>
       <div className="flex flex-col items-center py-8">
         <Subheading>AUGUST 19-21, 2024</Subheading>
@@ -47,7 +47,10 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center py-8">
         <Subheading>We&apos;re getting married!</Subheading>
-        <p className="mt-8">We met on Hinge</p>
+        <p className="mt-8">
+          We can't wait to share our special day with you. Celebrate with us
+          this summer.
+        </p>
       </div>
     </main>
   );

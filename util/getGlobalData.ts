@@ -1,94 +1,73 @@
 export const getGlobalData = () => {
   const schedule = [
     {
-      date: "MONDAY, AUGUST 19, 2024",
-      events: [
-        {
-          title: "Check-in",
-          time: "3:00 pm",
-          description:
-            "Check in and relax at the hotel, we highly recommend the beautiful outdoor infinity pool overlooking the fjord.",
-        },
-        {
-          title: "Welcome Dinner",
-          time: "7:00 pm",
-          description:
-            "Cocktail Attire: Wear cocktail dresses, LBDs, dressy jumpsuits, and dark jackets and slacks.",
-        },
-      ],
-    },
-    {
       date: "TUESDAY, AUGUST 20, 2024",
       events: [
         {
-          title: "Morning Brunch",
-          time: "7:00 am - 10:30 am",
-          description:
-            "Enjoy the breakfast buffet at the hotel on your own time, eat your heart out since it's included in your room package!",
-        },
-        {
           title: "Ceremony",
-          time: "4:30 pm - 5:15 pm",
+          time: "3:00 pm - 4:00 pm",
           description:
-            "Semi-Formal: Tuxes and gowns are welcome, and so are suits and cocktail dresses. \n\n Doors open at 4:00 pm and Ceremony starts at 4:30 pm sharp.",
+            "Surrounded by the beauty of Sola, witness our love story as we exchange vows in a heartfelt ceremony. Doors open at 4:00 pm and Ceremony starts at 4:30 pm sharp.",
         },
         {
           title: "Photos with the Couple & Cocktail Hour",
-          time: "5:30 pm - 7:00 pm",
+          time: "4:00 pm - 5:30 pm",
           description:
             "The happy couple will be taking pictures with everyone. Then cocktail hour will follow.",
         },
         {
           title: "Dinner & Reception",
-          time: "7:00 pm - 9:00 pm",
+          time: "5:30 pm - 8:00 pm",
           description:
-            "The happy couple will be taking pictures with everyone. Then cocktail hour will follow.",
+            "Experience an enchanting evening filled with love, laughter, and delectable cuisine at our wedding dinner and reception.",
         },
+        {
+          title: "Dessert & Coffee",
+          time: "8:00 pm - 10:00 pm",
+          description:
+            "Experience an enchanting evening filled with love, laughter, and delectable cuisine at our wedding dinner and reception.",
+        },
+
         {
           title: "After Party",
-          time: "9:00 pm - late",
+          time: "10:00 pm - late",
           description:
-            "The party continues on our dance floor upstairs. Time to grab your flats and dance the night away!",
-        },
-      ],
-    },
-    {
-      date: "WEDNESDAY, AUGUST 21, 2024",
-      events: [
-        {
-          title: "Closing Brunch",
-          time: "9:00 am",
-          description: "One last brunch before we part ways. ",
-        },
-        {
-          title: "Check-out",
-          time: "12:00 pm",
-          description:
-            "Cocktail Attire: Wear cocktail dresses, LBDs, dressy jumpsuits, and dark jackets and slacks.",
+            "The celebration continues. Join us for our first dance, slip into your flats and dance the night away!",
         },
       ],
     },
   ];
 
   const travel = {
-    hotelImg: "/solstrand.jpeg",
+    hotelImg: "/solastranden.jpg",
     description:
-      "We have booked a block of rooms for our group. The hotel is a 30-minute drive from the Bergen Airport. If you are arriving from North America, please message us your flight number and ETA and we will arrange transportation when you arrive.",
+      "We are celebrating our big day at this wonderful barn just a 5-minute drive from Stavanger Airport. If you're flying in from North America, kindly share your flight details and estimated arrival time with us. We'll take care of arranging transportation upon your arrival.",
     addresses: [
       {
-        category: "Hotel",
-        name: "SOLSTRAND HOTEL & BAD",
-        address: "200 Solstrandvegen Os, Vestland 5200, Norway",
-        link: "https://solstrand.com/en/",
+        category: "Venue",
+        name: "SOLASTRANDEN GÅRD",
+        address: "Nordsjøvegen 299, 4053 Ræge, Norway",
+        link: "https://www.solastrandengaard.no/",
       },
       {
         category: "Flight",
-        name: "BERGEN FLESLAND AIRPORT",
-        address: "Flyplassvegen 555, 5258 Bergen, Norway",
-        link: "https://avinor.no/en/airport/bergen-airport/",
+        name: "STAVANGER LUFTHAVN SOLA",
+        address: "Flyplassvegen 230, 4055 Sola, Norway",
+        link: "https://avinor.no/en/airport/stavanger-airport/",
       },
     ],
   };
 
-  return { schedule, travel };
+  const faq = [
+    {
+      q: "IS THERE TRANSPORTATION TO AND FROM THE HOTELS TO THE CEREMONY?",
+      a: "If you are coming from out of town, please book your flights to Stavanger, Norway and we will arrange transportation to/from the airport when you arrive. Please message us with your flight number and estimated time of arrival.",
+    },
+    {
+      q: "WHEN SHOULD I RSVP BY?",
+      a: "Please RSVP by March 31, 2024 to ensure that we have an accurate headcount.",
+    },
+  ];
+
+  return { schedule, travel, faq };
 };

@@ -22,7 +22,9 @@ export default function Rsvp() {
             </a>
           </Button>
           <p className="mt-10">
-            Please let us know by March 30, 2024, we hope to celebrate with you!
+            RSVP to our celebration by March 30, 2024, through this magic
+            button. We're eager to know if you can join us for this joyous
+            occasion. Looking forward to celebrating with you!
           </p>
         </div>
       </div>

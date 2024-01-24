@@ -12,11 +12,11 @@ export const Navbar = () => {
       <div className="mx-5">
         <Link href="/travel">Travel</Link>
       </div>
-      <div className="mx-5">
+      {/* <div className="mx-5">
         <Link href="/">Wedding Party</Link>
-      </div>
+      </div> */}
       <div className="mx-5">
-        <Link href="/">FAQs</Link>
+        <Link href="/faq">FAQs</Link>
       </div>
       <div className="mx-5">
         <Link href="/rsvp">RSVP</Link>

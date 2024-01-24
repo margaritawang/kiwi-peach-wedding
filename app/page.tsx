@@ -52,9 +52,10 @@ export default function Home() {
         <Heading>Mats Lunde</Heading>
       </div>
       <div className="flex flex-col items-center py-8">
-        <Subheading>AUGUST 19-21, 2024</Subheading>
-        <p className="my-8">Bergen, Norway</p>
-        <CountdownTimer targetDate="2024-08-19T19:00:00" />
+        <Subheading>AUGUST 20, 2024</Subheading>
+        <p className="mt-8 mb-4">Solastranden Gård</p>
+        <p className="mb-12">Stavanger, Norway</p>
+        <CountdownTimer targetDate="2024-08-20T15:00:00" />
         <div className="mt-16">
           <Button>
             <Link href="/rsvp" className="text-white">

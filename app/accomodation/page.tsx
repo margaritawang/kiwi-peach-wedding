@@ -7,9 +7,11 @@ const accomodation = getGlobalData().accomodation;
 
 export default function Hotel() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
+    <main className="flex min-h-screen flex-col items-center p-8 lg:p-24">
       <Subheading>Accomodation</Subheading>
-      <BodyText className="max-w-3xl">{accomodation.description}</BodyText>
+      <BodyText className="max-w-auto lg:max-w-3xl">
+        {accomodation.description}
+      </BodyText>
       <div className="grid lg:grid-cols-2 gap-12 my-12">
         {accomodation.recommendedHotels.map((h, idx) => (
           <div

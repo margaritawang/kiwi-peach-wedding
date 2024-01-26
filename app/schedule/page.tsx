@@ -6,7 +6,7 @@ const schedule = getGlobalData().schedule;
 
 export default function Schedule() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-8 lg:p-24">
       <Subheading>Schedule</Subheading>
       <div className="flex flex-col items-center mb-20">
         <BodyText>Details coming soon!</BodyText>

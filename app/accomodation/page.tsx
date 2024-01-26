@@ -9,8 +9,11 @@ export default function Hotel() {
       <Subheading>Accomodation</Subheading>
       <p className="max-w-3xl">{accomodation.description}</p>
       <div className="grid lg:grid-cols-2 gap-12 my-12">
-        {accomodation.recommendedHotels.map((h) => (
-          <div className="flex flex-col bg-sky-100 rounded-xl shadow-lg p-5">
+        {accomodation.recommendedHotels.map((h, idx) => (
+          <div
+            className="flex flex-col bg-sky-100 rounded-xl shadow-lg p-5"
+            key={`hotel-${idx + 1}`}
+          >
             <div className="mb-5">
               <Title>{h.name}</Title>
             </div>

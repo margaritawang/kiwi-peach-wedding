@@ -1,4 +1,27 @@
 export const getGlobalData = () => {
+  const navLinks = [
+    { display: "Home", url: "/" },
+    {
+      display: "Schedule",
+      url: "/schedule",
+    },
+    {
+      display: "Travel",
+      url: "/travel",
+    },
+    {
+      display: "Accomodation",
+      url: "/accomodation",
+    },
+    {
+      display: "FAQs",
+      url: "/faq",
+    },
+    {
+      display: "RSVP",
+      url: "/rsvp",
+    },
+  ];
   const schedule = [
     {
       date: "TUESDAY, AUGUST 20, 2024",
@@ -45,13 +68,13 @@ export const getGlobalData = () => {
     addresses: [
       {
         category: "Venue",
-        name: "SOLASTRANDEN GÅRD",
+        name: "Solastranden Gård",
         address: "Nordsjøvegen 299, 4053 Ræge, Norway",
         link: "https://www.solastrandengaard.no/",
       },
       {
         category: "Flight",
-        name: "STAVANGER LUFTHAVN SOLA",
+        name: "Stavanger Lufthavn Sola",
         address: "Flyplassvegen 230, 4055 Sola, Norway",
         link: "https://avinor.no/en/airport/stavanger-airport/",
       },
@@ -61,7 +84,7 @@ export const getGlobalData = () => {
   const recommendedHotels = [
     {
       name: "Sola Strandhotell",
-      website: "www.solastrandhotel.no",
+      website: "http://www.solastrandhotel.no",
       address: "Axel Lunds veg 27, 4055 Sola",
       phone: "+47 51 94 30 00 ",
       email: "post@solastrandhotel.no",
@@ -69,7 +92,7 @@ export const getGlobalData = () => {
     {
       name: "Quality Airport Hotel Stavanger",
       website:
-        "www.nordicchoicehotels.no/hotell/norge/sola/quality-airport-hotel-stavanger",
+        "http://www.nordicchoicehotels.no/hotell/norge/sola/quality-airport-hotel-stavanger",
       address: "Sømmevegen 1, 4055 Sola",
       phone: "+47 51 94 20 00",
       email: "q.stavanger@choice.no",
@@ -77,19 +100,26 @@ export const getGlobalData = () => {
     {
       name: "Scandic Stavanger Airport",
       website:
-        "www.scandichotels.com/hotels/norway/stavanger/scandic-stavanger-airport",
+        "http://www.scandichotels.com/hotels/norway/stavanger/scandic-stavanger-airport",
       address: "Flyplassvegen 226, 4055 Sola",
       phone: "+47 51 71 64 00",
       email: "stavangerairport@scandichotels.com",
     },
     {
       name: "Clarion Hotel Air",
-      website: "www.nordicchoicehotels.no/hotell/norge/sola/clarion-hotel-air",
+      website:
+        "http://www.nordicchoicehotels.no/hotell/norge/sola/clarion-hotel-air",
       address: "Utsolaarmen 16, 4055 Sola",
       phone: "+47 51 71 85 00",
       email: "cl.air@choice.no",
     },
   ];
+
+  const accomodation = {
+    description:
+      "We recommend hotels in the Stavanger Airport area since the venue is conveniently located 5 minutes away from the airport. To book, don't forget to mention that you're a part of the wedding. We have a list of recommended hotels below:",
+    recommendedHotels,
+  };
 
   const faq = [
     {
@@ -122,5 +152,5 @@ export const getGlobalData = () => {
     },
   ];
 
-  return { schedule, travel, faq, recommendedHotels };
+  return { navLinks, schedule, travel, faq, accomodation };
 };

@@ -1,6 +1,7 @@
 import { Subheading } from "@/components/Subheading";
 import { Title } from "@/components/Title";
 import { getGlobalData } from "@/util/getGlobalData";
+import { BodyText } from "@/components/BodyText";
 
 const faq = getGlobalData().faq;
 
@@ -14,7 +15,7 @@ export default function Faq() {
           key={`q-${index}`}
         >
           <Title>{question.q}</Title>
-          <p className="my-8">{question.a}</p>
+          <BodyText className="my-8">{question.a}</BodyText>
         </div>
       ))}
     </main>

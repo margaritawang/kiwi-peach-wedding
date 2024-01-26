@@ -1,13 +1,15 @@
 import { getGlobalData } from "@/util/getGlobalData";
 import { Subheading } from "@/components/Subheading";
 import { Title } from "@/components/Title";
+import { BodyText } from "@/components/BodyText";
+
 const accomodation = getGlobalData().accomodation;
 
 export default function Hotel() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
       <Subheading>Accomodation</Subheading>
-      <p className="max-w-3xl">{accomodation.description}</p>
+      <BodyText className="max-w-3xl">{accomodation.description}</BodyText>
       <div className="grid lg:grid-cols-2 gap-12 my-12">
         {accomodation.recommendedHotels.map((h, idx) => (
           <div
@@ -17,10 +19,10 @@ export default function Hotel() {
             <div className="mb-5">
               <Title>{h.name}</Title>
             </div>
-            <p className="mb-6">{h.address}</p>
-            <p>Phone: {h.phone}</p>
-            <p className="mb-5">Email: {h.email}</p>
-            <p>
+            <BodyText className="mb-6">{h.address}</BodyText>
+            <BodyText>Phone: {h.phone}</BodyText>
+            <BodyText className="mb-5">Email: {h.email}</BodyText>
+            <BodyText>
               <a
                 href={h.website}
                 target="_blank"
@@ -28,7 +30,7 @@ export default function Hotel() {
               >
                 View website
               </a>
-            </p>
+            </BodyText>
           </div>
         ))}
       </div>

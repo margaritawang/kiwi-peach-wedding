@@ -4,6 +4,7 @@ import { Subheading } from "@/components/Subheading";
 import { CountdownTimer } from "@/components/CountdownTimer";
 import { Button } from "@/components/Button";
 import Link from "next/link";
+import { BodyText } from "@/components/BodyText";
 
 export default function Home() {
   return (
@@ -48,13 +49,13 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center py-20">
         <Heading>Margarita Amy Wang</Heading>
-        <p className="my-8">&</p>
+        <BodyText className="my-8">&</BodyText>
         <Heading>Mats Lunde</Heading>
       </div>
       <div className="flex flex-col items-center py-8">
         <Subheading>AUGUST 20, 2024</Subheading>
-        <p className="mt-8 mb-4">Solastranden Gård</p>
-        <p className="mb-12">Stavanger, Norway</p>
+        <BodyText className="mt-8 mb-4">Solastranden Gård</BodyText>
+        <BodyText className="mb-12">Stavanger, Norway</BodyText>
         <CountdownTimer targetDate="2024-08-20T15:00:00" />
         <div className="mt-16">
           <Button>
@@ -66,10 +67,10 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center py-8">
         <Subheading>We&apos;re getting married!</Subheading>
-        <p className="mt-8">
+        <BodyText className="mt-8">
           We can&apos;t wait to share our special day with you. Celebrate with
           us this summer.
-        </p>
+        </BodyText>
       </div>
     </main>
   );

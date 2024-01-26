@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { getGlobalData } from "@/util/getGlobalData";
+import { BodyText } from "@/components/BodyText";
 
 const navLinks = getGlobalData().navLinks;
 
@@ -46,7 +47,7 @@ export const Navbar = () => {
               key={l.display}
             >
               <Link href={l.url} onClick={() => setShowMenu(false)}>
-                {l.display}
+                <BodyText>{l.display}</BodyText>
               </Link>
             </div>
           ))}

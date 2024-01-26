@@ -1,5 +1,6 @@
 import { Subheading } from "@/components/Subheading";
 import { getGlobalData } from "@/util/getGlobalData";
+import { BodyText } from "@/components/BodyText";
 
 const schedule = getGlobalData().schedule;
 
@@ -8,7 +9,7 @@ export default function Schedule() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <Subheading>Schedule</Subheading>
       <div className="flex flex-col items-center mb-20">
-        <p>Details coming soon!</p>
+        <BodyText>Details coming soon!</BodyText>
       </div>
       {/* {schedule.map((day) => (
         <div className="flex flex-col items-center mb-20" key={day.date}>

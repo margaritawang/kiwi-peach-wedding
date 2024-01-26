@@ -1,6 +1,7 @@
 "use client";
 
 import { useCountdown } from "@/hooks/useCountdown";
+import { BodyText } from "@/components/BodyText";
 
 export const CountdownTimer = ({
   targetDate,
@@ -15,9 +16,9 @@ export const CountdownTimer = ({
     return `Time is up!`;
   } else {
     return (
-      <p className={className}>
+      <BodyText className={className}>
         {days} days {hours} hours {minutes} minutes {seconds} seconds
-      </p>
+      </BodyText>
     );
   }
 };

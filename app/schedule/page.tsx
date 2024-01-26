@@ -6,8 +6,9 @@ const schedule = getGlobalData().schedule;
 export default function Schedule() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <Subheading>Schedule</Subheading>
       <div className="flex flex-col items-center mb-20">
-        <Subheading>Details coming soon!</Subheading>
+        <p>Details coming soon!</p>
       </div>
       {/* {schedule.map((day) => (
         <div className="flex flex-col items-center mb-20" key={day.date}>

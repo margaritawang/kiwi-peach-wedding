@@ -1,4 +1,5 @@
 import { Button } from "@/components/Button";
+import { Title } from "@/components/Title";
 import { Subheading } from "@/components/Subheading";
 import { getGlobalData } from "@/util/getGlobalData";
 import Image from "next/image";
@@ -8,6 +9,7 @@ const travel = getGlobalData().travel;
 export default function Travel() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <Subheading>Travel</Subheading>
       <Image src={travel.hotelImg} alt="hotel" width={800} height={500} />
       <p className="max-w-3xl my-16">{travel.description}</p>
       {travel.addresses.map((ad) => (
@@ -17,7 +19,7 @@ export default function Travel() {
         >
           <div className="flex flex-1 flex-col items-center border-r border-current">
             <p className="mb-4">{ad.category}</p>
-            <Subheading>{ad.name}</Subheading>
+            <Title>{ad.name}</Title>
           </div>
           <div className="flex flex-1 flex-col items-center p-4">
             <p className="mb-4">{ad.address}</p>

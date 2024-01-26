@@ -8,7 +8,7 @@ const faq = getGlobalData().faq;
 export default function Faq() {
   return (
     <main className="flex flex-col items-center p-8 lg:p-24">
-      <Subheading>FAQs</Subheading>
+      <Subheading className="mb-6 lg:mb-10">FAQs</Subheading>
       {faq.map((question, index) => (
         <div
           className="flex flex-col justify-center mb-10 items-center"

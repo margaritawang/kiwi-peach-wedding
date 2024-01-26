@@ -10,7 +10,7 @@ const travel = getGlobalData().travel;
 export default function Travel() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 lg:p-24">
-      <Subheading>Travel</Subheading>
+      <Subheading className="mb-6 lg:mb-10">Travel</Subheading>
       <Image src={travel.hotelImg} alt="hotel" width={800} height={500} />
       <BodyText className="max-w-auto lg:max-w-3xl my-16">
         {travel.description}

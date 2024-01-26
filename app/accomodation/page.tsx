@@ -8,7 +8,7 @@ const accomodation = getGlobalData().accomodation;
 export default function Hotel() {
   return (
     <main className="flex min-h-screen flex-col items-center p-8 lg:p-24">
-      <Subheading className="mb-6 lg:mb-10">Accomodation</Subheading>
+      <Subheading className="mb-8 lg:mb-10">Accomodation</Subheading>
       <BodyText className="max-w-auto lg:max-w-3xl">
         {accomodation.description}
       </BodyText>

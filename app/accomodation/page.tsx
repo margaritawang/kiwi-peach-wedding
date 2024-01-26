@@ -8,7 +8,7 @@ export default function Hotel() {
     <main className="flex min-h-screen flex-col items-center p-24">
       <Subheading>Accomodation</Subheading>
       <p className="max-w-3xl">{accomodation.description}</p>
-      <div className="grid grid-cols-2 gap-12 my-12">
+      <div className="grid lg:grid-cols-2 gap-12 my-12">
         {accomodation.recommendedHotels.map((h) => (
           <div className="flex flex-col bg-sky-100 rounded-xl shadow-lg p-5">
             <div className="mb-5">

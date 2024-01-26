@@ -1,3 +1,9 @@
-export const Title = ({ children }: { children: React.ReactNode }) => {
-  return <h2 className={`text-xl`}>{children}</h2>;
+export const Title = ({
+  children,
+  className = "",
+}: {
+  children: React.ReactNode;
+  className?: string;
+}) => {
+  return <h3 className={`text-base lg:text-xl ${className}`}>{children}</h3>;
 };

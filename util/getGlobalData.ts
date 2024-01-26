@@ -58,16 +58,69 @@ export const getGlobalData = () => {
     ],
   };
 
-  const faq = [
+  const recommendedHotels = [
     {
-      q: "IS THERE TRANSPORTATION TO AND FROM THE HOTELS TO THE CEREMONY?",
-      a: "If you are coming from out of town, please book your flights to Stavanger, Norway and we will arrange transportation to/from the airport when you arrive. Please message us with your flight number and estimated time of arrival.",
+      name: "Sola Strandhotell",
+      website: "www.solastrandhotel.no",
+      address: "Axel Lunds veg 27, 4055 Sola",
+      phone: "+47 51 94 30 00 ",
+      email: "post@solastrandhotel.no",
     },
     {
-      q: "WHEN SHOULD I RSVP BY?",
-      a: "Please RSVP by March 31, 2024 to ensure that we have an accurate headcount.",
+      name: "Quality Airport Hotel Stavanger",
+      website:
+        "www.nordicchoicehotels.no/hotell/norge/sola/quality-airport-hotel-stavanger",
+      address: "Sømmevegen 1, 4055 Sola",
+      phone: "+47 51 94 20 00",
+      email: "q.stavanger@choice.no",
+    },
+    {
+      name: "Scandic Stavanger Airport",
+      website:
+        "www.scandichotels.com/hotels/norway/stavanger/scandic-stavanger-airport",
+      address: "Flyplassvegen 226, 4055 Sola",
+      phone: "+47 51 71 64 00",
+      email: "stavangerairport@scandichotels.com",
+    },
+    {
+      name: "Clarion Hotel Air",
+      website: "www.nordicchoicehotels.no/hotell/norge/sola/clarion-hotel-air",
+      address: "Utsolaarmen 16, 4055 Sola",
+      phone: "+47 51 71 85 00",
+      email: "cl.air@choice.no",
     },
   ];
 
-  return { schedule, travel, faq };
+  const faq = [
+    {
+      q: "Is there transportation to and from the hotels to the ceremony?",
+      a: "We will arrange taxis from all our recommended hotels to the venue. If you're staying at Sola Strand Hotell, the venue is only a 10 minute walk along the beach.",
+    },
+    {
+      q: "When should I RSVP by?",
+      a: "To ensure that we have an accurate headcount and the hotel rooms are available, please RSVP by April 20, 2024.",
+    },
+    {
+      q: "Do I get a discount on the hotel room?",
+      a: "We were lucky enough to secure an 8% wedding discount through Sola Strand Hotell if you book directly on their website. See Hotel section for more details.",
+    },
+    {
+      q: "What is the dress code for the wedding?",
+      a: "The dress code is cocktail attire: Wear cocktail dresses, suits, dressy jumpsuits, and dark jackets and slacks.",
+    },
+    {
+      q: "Are there any activities for me during the stay?",
+      a: "All our recommended hotels include a breakfast buffet that you can enjoy, or you could go out for a nice walk along the beach if the weather permits. Sola Strand Hotell also offers spa day passes for their staying guests at 250 NOK (approx. 25 USD) per day.",
+    },
+    {
+      q: "Can I bring a plus one to the wedding?",
+      a: "Please check your e-vite to see if have a plus one included.",
+    },
+    {
+      q: "My question is not listed here, what do I do?",
+      a: "No problem, just ask! We are reachable on Facebook, Instagram and Whatsapp +1-415-910-4137. ",
+    },
+  ];
+
+  return { schedule, travel, faq, recommendedHotels };
 };

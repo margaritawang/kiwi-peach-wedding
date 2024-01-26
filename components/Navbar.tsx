@@ -12,9 +12,9 @@ export const Navbar = () => {
       <div className="mx-5">
         <Link href="/travel">Travel</Link>
       </div>
-      {/* <div className="mx-5">
-        <Link href="/">Wedding Party</Link>
-      </div> */}
+      <div className="mx-5">
+        <Link href="/hotel">Hotel</Link>
+      </div>
       <div className="mx-5">
         <Link href="/faq">FAQs</Link>
       </div>

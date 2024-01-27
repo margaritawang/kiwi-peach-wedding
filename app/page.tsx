@@ -6,12 +6,6 @@ import { Button } from "@/components/Button";
 import Link from "next/link";
 import { BodyText } from "@/components/BodyText";
 
-const imageStyle = {
-  // "@media (min-width: 1024px)": {
-  width: "250px",
-  // },
-};
-
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 lg:p-24">
@@ -35,10 +29,10 @@ export default function Home() {
           </div>
         </div>
         <div className="relative">
-          <div className="absolute -top-64 lg:-left-24 w-24 h-24 lg:w-60 lg:h-60">
+          <div className="absolute -top-92 md:-top-64 lg:-left-24 w-24 h-24 lg:w-60 lg:h-60">
             <Image src="/snowflake.png" alt="snowflake" fill />
           </div>
-          <div className="absolute -right-64 -top-40 hidden md:block">
+          <div className="absolute -right-64 -top-40 hidden lg:block">
             <Image
               src="/snowbird.png"
               alt="snowbird"

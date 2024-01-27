@@ -14,7 +14,7 @@ export const Navbar = () => {
     <div>
       <button
         type="button"
-        className={`inline-flex items-center p-2 m-3 text-md rounded-lg lg:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 hover:text-slate-900 absolute top-1 right-1 bg-white z-10`}
+        className={`inline-flex items-center p-2 m-3 text-md rounded-full lg:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 hover:text-slate-900 absolute top-1 right-1 bg-white z-10`}
         aria-controls="navbar-default"
         aria-expanded="false"
         onClick={() => setShowMenu(!showMenu)}

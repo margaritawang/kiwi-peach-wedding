@@ -10,8 +10,8 @@ export const getGlobalData = () => {
       url: "/travel",
     },
     {
-      display: "Accomodation",
-      url: "/accomodation",
+      display: "Accommodation",
+      url: "/accommodation",
     },
     {
       display: "FAQs",
@@ -115,7 +115,7 @@ export const getGlobalData = () => {
     },
   ];
 
-  const accomodation = {
+  const accommodation = {
     description:
       "We recommend hotels in the Stavanger Airport area since the venue is conveniently located 5 minutes away from the airport. To book, don't forget to mention that you're a part of the wedding. We have a list of recommended hotels below:",
     recommendedHotels,
@@ -152,5 +152,5 @@ export const getGlobalData = () => {
     },
   ];
 
-  return { navLinks, schedule, travel, faq, accomodation };
+  return { navLinks, schedule, travel, faq, accommodation };
 };

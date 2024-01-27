@@ -42,17 +42,17 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center py-20">
+      <div className="flex flex-col items-center py-10 lg:py-20">
         <Heading>Margarita Amy Wang</Heading>
         <BodyText className="my-8">&</BodyText>
         <Heading>Mats Lunde</Heading>
       </div>
-      <div className="flex flex-col items-center py-8">
+      <div className="flex flex-col items-center py-4 lg:py-8">
         <Subheading>AUGUST 20, 2024</Subheading>
         <BodyText className="mt-8 mb-4">Solastranden Gård</BodyText>
         <BodyText className="mb-12">Stavanger, Norway</BodyText>
         <CountdownTimer targetDate="2024-08-20T15:00:00" />
-        <div className="mt-16">
+        <div className="mt-8 lg:mt-16">
           <Button>
             <Link href="/rsvp" className="text-white">
               RSVP

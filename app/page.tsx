@@ -17,7 +17,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-8 lg:p-24">
       <div className="mb-28 relative w-full">
         <div className="relative w-full flex">
-          <div className="relative -top-8 -right-32">
+          <div className="relative -top-8 -right-32 hidden lg:block">
             <Image
               src="/home_1.jpg"
               alt="homepage_1"
@@ -25,7 +25,7 @@ export default function Home() {
               height={550}
             />
           </div>
-          <div className="absolute right-28 top-12">
+          <div className="lg:absolute lg:right-28 lg:top-12">
             <Image
               src="/home_2.jpg"
               alt="homepage_2"
@@ -38,7 +38,7 @@ export default function Home() {
           <div className="absolute -top-64 lg:-left-24 w-24 h-24 lg:w-60 lg:h-60">
             <Image src="/snowflake.png" alt="snowflake" fill />
           </div>
-          <div className="absolute -right-64 -top-40 hidden lg:block">
+          <div className="absolute -right-64 -top-40 hidden md:block">
             <Image
               src="/snowbird.png"
               alt="snowbird"

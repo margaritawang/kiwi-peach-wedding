@@ -31,7 +31,7 @@ export const Navbar = () => {
         </svg>
       </button>
       <div
-        className={`absolute right-0 top-0 bottom-0 lg:static h-vh bg-white lg:bg-inherit w-1/2 lg:w-full lg:block ${
+        className={`absolute right-0 top-0 bottom-0 lg:static h-vh bg-white lg:bg-inherit w-1/2 md:w-1/3 lg:w-full lg:block ${
           showMenu ? "" : "hidden"
         } p-4 lg:p-0 z-50
         `}
@@ -46,7 +46,7 @@ export const Navbar = () => {
             className={`items-center text-md rounded-full lg:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 hover:text-slate-900 bg-white z-10`}
             aria-controls="navbar-default"
             aria-expanded="false"
-            onClick={() => setShowMenu(!showMenu)}
+            onClick={() => setShowMenu(false)}
           >
             <span className="sr-only">Open main menu</span>
             <svg

@@ -9,6 +9,7 @@ export const getGlobalData = () => {
       display: "Travel",
       url: "/travel",
     },
+    { display: "Our Story", url: "/our-story" },
     {
       display: "Accommodation",
       url: "/accommodation",
@@ -22,6 +23,11 @@ export const getGlobalData = () => {
       url: "/rsvp",
     },
   ];
+  const ourStory = {
+    img: "/haa.jpg",
+    description:
+      "We met on Hinge and he was desparate enough to send me a rose.",
+  };
   const schedule = [
     {
       date: "TUESDAY, AUGUST 20, 2024",
@@ -139,6 +145,23 @@ export const getGlobalData = () => {
       a: "The dress code is cocktail attire: Wear cocktail dresses, suits, dressy jumpsuits, and dark jackets and slacks.",
     },
     {
+      q: "What is the weather like in Norway during the wedding season?",
+      a: "Summer in West Coast Norway typically offers mild temperatures, but it is known to have some rain here and there. Check the weather forecast closer to the wedding date for accurate conditions.",
+    },
+    {
+      q: "What currency is used in Norway, and how should I handle money during my stay?",
+      a: "The currency used in Norway is the Norwegian Krone (NOK). You can carry a small amount of local currency if you wish, but credit cards are the preferred method of payment in Norway.",
+    },
+    {
+      q: "Is it customary to bring a gift for the couple?",
+      a: "While gifts are appreciated, they are not always expected from wedding guests, especially those traveling from afar. Consider sending a gift to the couple's home before or after the wedding if you prefer not to bring one to the destination.",
+    },
+    { q: "Will there be alcohol at the wedding?", a: "" },
+    {
+      q: "Is there an itinerary for wedding-related events?",
+      a: "We are having a rehearsal dinner with family and the wedding party the evening before the wedding, and a Happily-After-Brunch-Party for the friends of the Bride and Groom.",
+    },
+    {
       q: "Are there any activities for me during the stay?",
       a: "All our recommended hotels include a breakfast buffet that you can enjoy, or you could go out for a nice walk along the beach if the weather permits. Sola Strand Hotell also offers spa day passes for their staying guests at 250 NOK (approx. 25 USD) per day.",
     },
@@ -152,5 +175,5 @@ export const getGlobalData = () => {
     },
   ];
 
-  return { navLinks, schedule, travel, faq, accommodation };
+  return { navLinks, schedule, travel, faq, accommodation, ourStory };
 };

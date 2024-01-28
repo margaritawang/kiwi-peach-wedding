@@ -36,14 +36,14 @@ export const Navbar = () => {
         } p-4 lg:p-0 z-50
         `}
       >
-        <div>
+        <div className="flex flex-row items-center justify-between">
           <div className="text-left lg:hidden text-slate-500 text-xs">
             <p>August 20, 2024</p>
             <p>Stavanger, Norway</p>
           </div>
           <button
             type="button"
-            className={`inline-flex items-center p-2 m-3 text-md rounded-full lg:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 hover:text-slate-900 absolute top-1 right-1 bg-white z-10`}
+            className={`items-center text-md rounded-full lg:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 hover:text-slate-900 bg-white z-10`}
             aria-controls="navbar-default"
             aria-expanded="false"
             onClick={() => setShowMenu(!showMenu)}

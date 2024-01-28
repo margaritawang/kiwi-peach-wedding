@@ -17,6 +17,7 @@ export default function Home() {
               alt="homepage_1"
               width={550}
               height={550}
+              quality={40}
             />
           </div>
           <div className="lg:absolute lg:right-28 lg:top-12">
@@ -25,6 +26,7 @@ export default function Home() {
               alt="homepage_2"
               width={550}
               height={550}
+              quality={40}
             />
           </div>
         </div>

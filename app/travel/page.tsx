@@ -11,7 +11,13 @@ export default function Travel() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 lg:p-24">
       <Subheading className="mb-8 lg:mb-10">Travel</Subheading>
-      <Image src={travel.hotelImg} alt="hotel" width={800} height={500} />
+      <Image
+        src={travel.hotelImg}
+        alt="hotel"
+        width={800}
+        height={500}
+        quality={40}
+      />
       <BodyText className="max-w-auto lg:max-w-3xl my-10 lg:my-16">
         {travel.description}
       </BodyText>

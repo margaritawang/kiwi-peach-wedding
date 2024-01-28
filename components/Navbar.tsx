@@ -53,7 +53,7 @@ export const Navbar = () => {
               width="24px"
               height="24px"
               viewBox="0 0 24 24"
-              fill="none"
+              fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
             >
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>

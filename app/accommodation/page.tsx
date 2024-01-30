@@ -24,6 +24,11 @@ export default function Accommodation() {
             <BodyText className="mb-3 lg:mb-6">{h.address}</BodyText>
             <BodyText>Phone: {h.phone}</BodyText>
             <BodyText className="mb-2 lg:mb-5">Email: {h.email}</BodyText>
+            {h.discount ? (
+              <BodyText className="mb-2 lg:mb-5">
+                Discount: {h.discount}
+              </BodyText>
+            ) : null}
             <BodyText>
               <a
                 href={h.website}

@@ -1,6 +1,7 @@
 export const getGlobalData = () => {
   const navLinks = [
     { display: "Home", url: "/" },
+    { display: "Our Story", url: "/our-story" },
     {
       display: "Schedule",
       url: "/schedule",
@@ -9,7 +10,7 @@ export const getGlobalData = () => {
       display: "Travel",
       url: "/travel",
     },
-    { display: "Our Story", url: "/our-story" },
+
     {
       display: "Accommodation",
       url: "/accommodation",
@@ -94,6 +95,16 @@ export const getGlobalData = () => {
       address: "Axel Lunds veg 27, 4055 Sola",
       phone: "+47 51 94 30 00 ",
       email: "post@solastrandhotel.no",
+      discount: "8%",
+    },
+    {
+      name: "Clarion Hotel Air",
+      website:
+        "http://www.nordicchoicehotels.no/hotell/norge/sola/clarion-hotel-air",
+      address: "Utsolaarmen 16, 4055 Sola",
+      phone: "+47 51 71 85 00",
+      email: "cl.air@choice.no",
+      discount: "15%",
     },
     {
       name: "Quality Airport Hotel Stavanger",
@@ -102,6 +113,7 @@ export const getGlobalData = () => {
       address: "Sømmevegen 1, 4055 Sola",
       phone: "+47 51 94 20 00",
       email: "q.stavanger@choice.no",
+      discount: "10%",
     },
     {
       name: "Scandic Stavanger Airport",
@@ -111,19 +123,11 @@ export const getGlobalData = () => {
       phone: "+47 51 71 64 00",
       email: "stavangerairport@scandichotels.com",
     },
-    {
-      name: "Clarion Hotel Air",
-      website:
-        "http://www.nordicchoicehotels.no/hotell/norge/sola/clarion-hotel-air",
-      address: "Utsolaarmen 16, 4055 Sola",
-      phone: "+47 51 71 85 00",
-      email: "cl.air@choice.no",
-    },
   ];
 
   const accommodation = {
     description:
-      "We recommend hotels in the Stavanger Airport area since the venue is conveniently located 5 minutes away from the airport. To book, don't forget to mention that you're a part of the wedding. We have a list of recommended hotels below:",
+      "We recommend the following hotels in the Stavanger Airport area since the venue is conveniently located 5 minutes away from the airport. We were lucky enough to secure a wedding discount on the hotel rooms based off of the daily room rate. To claim your discount, make sure you book directly from their website. Once your booking is confirmed, contact the hotel with the dates of your stay, and mention that you're a part of Mats and Margarita's wedding at Solastranden Gård.",
     recommendedHotels,
   };
 
@@ -134,11 +138,11 @@ export const getGlobalData = () => {
     },
     {
       q: "When should I RSVP by?",
-      a: "To ensure that we have an accurate headcount and the hotel rooms are available, please RSVP by April 20, 2024.",
+      a: "To help us with accurate planning and ensure availability of hotel accommodations, kindly RSVP by April 20, 2024.",
     },
     {
-      q: "Do I get a discount on the hotel room?",
-      a: "We were lucky enough to secure an 8% wedding discount through Sola Strand Hotell if you book directly on their website. See Hotel section for more details.",
+      q: "When should I book my hotel room?",
+      a: "For the best rate and room availability, we recommend booking your hotel room as soon as you RSVP to ensure the best experience. See Accommodation for more info.",
     },
     {
       q: "What is the dress code for the wedding?",
@@ -153,10 +157,13 @@ export const getGlobalData = () => {
       a: "The currency used in Norway is the Norwegian Krone (NOK). You can carry a small amount of local currency if you wish, but credit cards are the preferred method of payment in Norway.",
     },
     {
-      q: "Is it customary to bring a gift for the couple?",
-      a: "While gifts are appreciated, they are not always expected from wedding guests, especially those traveling from afar. Consider sending a gift to the couple's home before or after the wedding if you prefer not to bring one to the destination.",
+      q: "Do you have a gift registry?",
+      a: "Your presence is our gift! While gifts are appreciated, they are not always expected from wedding guests, especially those traveling from halfway across the world. If you insist on giving a gift, we would greately appreciate a hand-written card or small amounts of cash.",
     },
-    { q: "Will there be alcohol at the wedding?", a: "" },
+    {
+      q: "Will there be alcohol at the wedding?",
+      a: "You asked and we shall deliver! There will be 3 glasses of wine to accompany the meal for guests over 18 years of age, and a cash bar is available for additional drinks after dinner. Outside alcohol is not permitted on premise due to liquor laws in Norway.",
+    },
     {
       q: "Is there an itinerary for wedding-related events?",
       a: "We are having a rehearsal dinner with family and the wedding party the evening before the wedding, and a Happily-After-Brunch-Party for the friends of the Bride and Groom.",

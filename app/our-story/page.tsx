@@ -1,5 +1,3 @@
-import { Button } from "@/components/Button";
-import { Title } from "@/components/Title";
 import { Subheading } from "@/components/Subheading";
 import { getGlobalData } from "@/util/getGlobalData";
 import Image from "next/image";

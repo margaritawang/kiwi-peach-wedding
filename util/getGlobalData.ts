@@ -103,7 +103,7 @@ export const getGlobalData = () => {
         "https://www.strawberryhotels.com/hotels/norway/sola/clarion-hotel-air/",
       address: "Utsolaarmen 16, 4055 Sola",
       phone: "+47 51 71 85 00",
-      email: "cl.air@choice.no",
+      email: "cl.air@strawberry.no",
       discount: "15%",
     },
     {
@@ -112,7 +112,7 @@ export const getGlobalData = () => {
         "https://www.strawberryhotels.com/hotels/norway/sola/quality-airport-hotel-stavanger/",
       address: "Sømmevegen 1, 4055 Sola",
       phone: "+47 51 94 20 00",
-      email: "q.stavanger@choice.no",
+      email: "q.stavanger@strawberry.no",
       discount: "10%",
     },
     {

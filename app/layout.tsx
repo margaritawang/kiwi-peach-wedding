@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-
 import "./globals.css";
 import { libre_baskerville } from "./fonts";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+
+import ContainerWrapper from "./ContainerWrapper";
 
 export const metadata: Metadata = {
   title: `Mats and Margarita's Wedding Website`,
@@ -19,9 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${libre_baskerville.className} bg-blue-200`}>
-        <Navbar />
-        {children}
-        <Footer />
+        <ContainerWrapper>{children}</ContainerWrapper>
       </body>
     </html>
   );

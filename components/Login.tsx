@@ -13,7 +13,7 @@ export function Login() {
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
-    console.log(pw);
+
     if (pw === "12345") {
       setErr(false);
       localStorage.setItem("token", "verified");

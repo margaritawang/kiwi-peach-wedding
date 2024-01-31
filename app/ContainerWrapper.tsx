@@ -1,16 +1,19 @@
 "use client";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-
 import { Login } from "@/components/Login";
-import { getToken } from "@/util/getToken";
+import { useEffect, useState } from "react";
 
 export default function ContainerWrapper({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const hasToken = getToken();
+  const [hasToken, setHasToken] = useState(false);
+
+  useEffect(() => {
+    setHasToken(!!localStorage.getItem("token"));
+  });
 
   return hasToken ? (
     <>

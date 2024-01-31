@@ -100,7 +100,7 @@ export const getGlobalData = () => {
     {
       name: "Clarion Hotel Air",
       website:
-        "http://www.nordicchoicehotels.no/hotell/norge/sola/clarion-hotel-air",
+        "https://www.strawberryhotels.com/hotels/norway/sola/clarion-hotel-air/",
       address: "Utsolaarmen 16, 4055 Sola",
       phone: "+47 51 71 85 00",
       email: "cl.air@choice.no",
@@ -109,7 +109,7 @@ export const getGlobalData = () => {
     {
       name: "Quality Airport Hotel Stavanger",
       website:
-        "http://www.nordicchoicehotels.no/hotell/norge/sola/quality-airport-hotel-stavanger",
+        "https://www.strawberryhotels.com/hotels/norway/sola/quality-airport-hotel-stavanger/",
       address: "Sømmevegen 1, 4055 Sola",
       phone: "+47 51 94 20 00",
       email: "q.stavanger@choice.no",

@@ -26,7 +26,7 @@ export function Login() {
   return (
     <main className="flex flex-col items-center p-8 lg:p-24">
       <Subheading className="mb-8 lg:mb-10">Welcome!</Subheading>
-      <Title className="mb-8 lg:mb-10">Let's find out who you are.</Title>
+      <Title className="mb-8 lg:mb-10">Let&apos;s find out who you are.</Title>
       <BodyText>
         Please enter the password you received from your email invite.
       </BodyText>

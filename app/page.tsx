@@ -9,7 +9,7 @@ import { BodyText } from "@/components/BodyText";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 lg:p-24">
-      <div className="mb-28 relative w-full">
+      <div className="mb-28 relative w-full mt-14 lg:mt-0">
         <div className="relative w-full flex">
           <div className="relative -top-8 -right-32 hidden lg:block">
             <Image

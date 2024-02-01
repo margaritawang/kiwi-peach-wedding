@@ -8,7 +8,7 @@ const ourStory = getGlobalData().ourStory;
 export default function OurStory() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 lg:p-24">
-      <Subheading className="mb-8 lg:mb-10">Our Story</Subheading>
+      <Subheading className="mb-8 lg:mb-10 mt-14 lg:mt-0">Our Story</Subheading>
       <Image
         src={ourStory.img}
         alt="our-story"

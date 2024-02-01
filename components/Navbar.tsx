@@ -25,14 +25,14 @@ export const Navbar = () => {
       <div>
         <button
           type="button"
-          className={`inline-flex items-center p-2 m-3 text-md rounded-full lg:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 hover:text-slate-900 absolute top-1 right-1 bg-white z-10`}
+          className={`inline-flex items-center p-3 m-3 text-md rounded-full lg:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 hover:text-slate-900 absolute top-1 right-1 bg-white z-10 shadow-xl`}
           aria-controls="navbar-default"
           aria-expanded="false"
           onClick={() => setShowMenu(!showMenu)}
         >
           <span className="sr-only">Open main menu</span>
           <svg
-            className="w-6 h-6"
+            className="w-7 h-7 mr-1"
             aria-hidden="true"
             fill="currentColor"
             viewBox="0 0 20 20"
@@ -40,6 +40,7 @@ export const Navbar = () => {
           >
             <path d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"></path>
           </svg>
+          Menu
         </button>
         <div
           className={`fixed right-0 top-0 bottom-0 lg:static h-vh bg-white lg:bg-inherit w-1/2 md:w-1/3 lg:w-full lg:block ${

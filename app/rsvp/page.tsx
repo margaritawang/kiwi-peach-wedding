@@ -6,7 +6,7 @@ import { BodyText } from "@/components/BodyText";
 export default function Rsvp() {
   return (
     <main className="flex min-h-screen flex-col items-center p-8 lg:p-24">
-      <Subheading className="mb-8 lg:mb-10">RSVP</Subheading>
+      <Subheading className="mb-8 lg:mb-10 mt-14 lg:mt-0">RSVP</Subheading>
       <div className="divide-y divide-current bg-sky-100 p-4 lg:p-12 rounded-xl shadow-lg lg:w-1/2">
         <div className="flex flex-col justify-center items-center mb-4 lg:mb-10">
           <Title>Margarita & Mats</Title>

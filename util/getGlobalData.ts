@@ -27,7 +27,7 @@ export const getGlobalData = () => {
   const ourStory = {
     img: "/haa.jpg",
     description:
-      "We met on Hinge and he was desparate enough to send me a rose.",
+      "We met on Hinge and he was desperate enough to send me a rose.",
   };
   const schedule = [
     {

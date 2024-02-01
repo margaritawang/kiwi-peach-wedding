@@ -11,10 +11,10 @@ export default function OurStory() {
       <Subheading className="mb-8 lg:mb-10">Our Story</Subheading>
       <Image
         src={ourStory.img}
-        alt="hotel"
-        width={500}
-        height={300}
-        quality={50}
+        alt="our-story"
+        width={800}
+        height={500}
+        quality={30}
       />
       <BodyText className="max-w-auto lg:max-w-3xl my-10 lg:my-16">
         {ourStory.description}

@@ -14,7 +14,7 @@ export function Login() {
   const handleSubmit = (e: any) => {
     e.preventDefault();
 
-    if (pw === "12345") {
+    if (pw === process.env.NEXT_PUBLIC_WEDDING_PASSWORD) {
       setErr(false);
       localStorage.setItem("token", "verified");
       router.refresh();

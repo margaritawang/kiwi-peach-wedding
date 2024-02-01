@@ -27,7 +27,7 @@ export const getGlobalData = () => {
   const ourStory = {
     img: "/haa.jpg",
     description:
-      "We met on Hinge and he was desperate enough to send me a rose.",
+      "On a regular Tuesday in February 2021, Mats stumbled upon Margarita's profile on Hinge and was immediately drawn in. He sent her a rose along with a cheesy joke, which surprisingly led to a month of chatting. Eventually, they met up a couple of times before deciding to leave San Francisco for Florida separately. Despite the distance, they stayed in touch, and Mats even visited Margarita in Miami. Saying goodbye was tough, and Mats realized he needed to see her again. So, he ditched a job offer in Norway and hopped on a bus to Miami. He chose love over career, and now, 1288 days later, they're getting married.",
   };
   const schedule = [
     {

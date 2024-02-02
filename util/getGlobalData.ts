@@ -127,11 +127,15 @@ export const getGlobalData = () => {
 
   const accommodation = {
     description:
-      "We recommend the following hotels in the Stavanger Airport area since the venue is conveniently located 5 minutes away from the airport. We were lucky enough to secure a wedding discount on the hotel rooms based off of the daily room rate. To claim your discount, make sure you book directly from their website. Once your booking is confirmed, contact the hotel with the dates of your stay, and mention that you're a part of Mats and Margarita's wedding at Solastranden Gård.",
+      "We recommend the following hotels in the Stavanger Airport area since the venue is conveniently located 5 minutes away from the airport. We were lucky enough to secure a wedding discount on the hotel rooms based off of the daily room rate. To claim your discount, send an email to the hotel with your dates of stay, and mention that you're a part of Mats and Margarita's wedding at Solastranden Gård. They'll take it from there.",
     recommendedHotels,
   };
 
   const faq = [
+    {
+      q: "Do I need a visa to visit Norway?",
+      a: "If you are a Canadian, US or Australian citizen, you generally don't need a visa to visit Norway. Please check with the Norwegian foreign office website if you're a citizen of other countries: https://www.udi.no/en/want-to-apply/visit-and-holiday/visitors-visa-to-norway",
+    },
     {
       q: "Is there transportation to and from the hotels to the ceremony?",
       a: "We will arrange taxis from all our recommended hotels to the venue. If you're staying at Sola Strand Hotell, the venue is only a 10 minute walk along the beach.",
@@ -166,7 +170,7 @@ export const getGlobalData = () => {
     },
     {
       q: "Is there an itinerary for wedding-related events?",
-      a: "We are having a rehearsal dinner with family and the wedding party the evening before the wedding, and a Happily-After-Brunch-Party for the friends of the Bride and Groom.",
+      a: "We are having a very informal welcome dinner party with all out-of-town guests that arrive the evening before the wedding, and a Happily-After-Brunch-Party with the friends of the Bride and Groom.",
     },
     {
       q: "Are there any activities for me during the stay?",

@@ -8,11 +8,6 @@ import { useState } from "react";
 
 const navLinks = getGlobalData().navLinks;
 
-type NavbarProps = {
-  showMenu: boolean;
-  setShowMenu: (s: boolean) => void;
-};
-
 export const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (

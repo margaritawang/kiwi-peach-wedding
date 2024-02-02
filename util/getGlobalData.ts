@@ -150,11 +150,11 @@ export const getGlobalData = () => {
     },
     {
       q: "What is the dress code for the wedding?",
-      a: "The dress code is cocktail attire: Wear cocktail dresses, suits, dressy jumpsuits, and dark jackets and slacks.",
+      a: "The dress code is cocktail attire: Wear cocktail dresses, suits, dressy jumpsuits, and dark jackets and slacks. You're more than welcome to wear bunads, but they're not mandatory.",
     },
     {
       q: "What is the weather like in Norway during the wedding season?",
-      a: "Summer in West Coast Norway typically offers mild temperatures, but it is known to have some rain here and there. Check the weather forecast closer to the wedding date for accurate conditions.",
+      a: "Summer in West Coast Norway typically ranges between 12 to 19 degrees celsius, but it is known to have some rain here and there. We recommend bringing a jacket to the venue, there will be plenty of closet space! Check the weather forecast closer to the wedding date for accurate conditions.",
     },
     {
       q: "What currency is used in Norway, and how should I handle money during my stay?",
@@ -168,9 +168,13 @@ export const getGlobalData = () => {
       q: "Will there be alcohol at the wedding?",
       a: "You asked and we shall deliver! There will be 3 glasses of wine to accompany the meal for guests over 18 years of age, and a cash bar is available for additional drinks after dinner. Outside alcohol is not permitted on premise due to liquor laws in Norway.",
     },
+    // {
+    //   q: "Is there an itinerary for wedding-related events?",
+    //   a: "We are having a very informal welcome dinner party with all out-of-town guests that arrive the evening before the wedding, and a Happily-After-Brunch-Party with the friends of the Bride and Groom.",
+    // },
     {
       q: "Is there an itinerary for wedding-related events?",
-      a: "We are having a very informal welcome dinner party with all out-of-town guests that arrive the evening before the wedding, and a Happily-After-Brunch-Party with the friends of the Bride and Groom.",
+      a: "We are having a very informal welcome dinner party with all out-of-town guests that arrive the evening before the wedding, and more exciting stuff coming up!",
     },
     {
       q: "Are there any activities for me during the stay?",
@@ -178,11 +182,11 @@ export const getGlobalData = () => {
     },
     {
       q: "Can I bring a plus one to the wedding?",
-      a: "Please check your e-vite to see if have a plus one included.",
+      a: "Due to venue constraints, please check your email invite to see if you have a plus one included.",
     },
     {
       q: "My question is not listed here, what do I do?",
-      a: "No problem, just ask! We are reachable on Facebook, Instagram and Whatsapp +1-415-910-4137. ",
+      a: "No problem, just ask! We are reachable on Facebook, Instagram and Whatsapp +1-415-910-4137. We want to ensure that everyone feels welcomed and accommodated to the best of our ability on our special day 🥰",
     },
   ];
 

@@ -137,6 +137,10 @@ export const getGlobalData = () => {
       a: "If you are a Canadian, US or Australian citizen, you generally don't need a visa to visit Norway. Please check with the Norwegian foreign office website if you're a citizen of other countries: https://www.udi.no/en/want-to-apply/visit-and-holiday/visitors-visa-to-norway",
     },
     {
+      q: "What is the easiest way to get to Stavanger?",
+      a: "We recommend flying into a major European hub such as London, Amsterdam, Frankfurt, or Copenhagen. Most of our guests are opting to take a short detour around other cities in Europe before or after the wedding (Use this as an excuse to enjoy the European summer vacation you all deserve 😉). Be sure to check flight schedules and prices from your departure city to find the most convenient and affordable option for your journey.",
+    },
+    {
       q: "Is there transportation to and from the hotels to the ceremony?",
       a: "We will arrange taxis from all our recommended hotels to the venue. If you're staying at Sola Strand Hotell, the venue is only a 10 minute walk along the beach.",
     },

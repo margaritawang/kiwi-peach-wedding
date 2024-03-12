@@ -27,7 +27,7 @@ export default function Rsvp() {
             </a>
           </Button>
           <BodyText className="mt-6 lg:mt-10">
-            RSVP to our celebration by April 20, 2024, through this magic
+            RSVP to our celebration by April 30, 2024, through this magic
             button. We&apos;re eager to know if you can join us for this joyous
             occasion. Looking forward to celebrating with you!
           </BodyText>

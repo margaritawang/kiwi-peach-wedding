@@ -146,7 +146,7 @@ export const getGlobalData = () => {
     },
     {
       q: "When should I RSVP by?",
-      a: "To help us with accurate planning and ensure availability of hotel accommodations, kindly RSVP by April 30, 2024. We're happy to help if you have any scheduling issues, but please reach out to us first and refrain from last minute changes 🙏",
+      a: "To help us with accurate planning and ensure availability of hotel accommodations, kindly RSVP by April 30, 2024. If you are unable to attend, we would appreciate you to still let us know at the soonest opportunity. We're happy to help if you have any scheduling issues, but please reach out to us first and refrain from last minute changes 🙏",
     },
     {
       q: "When should I book my hotel room?",
